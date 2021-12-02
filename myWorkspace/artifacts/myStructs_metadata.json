@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "countPeople",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_firstname",
+						"type": "string"
+					},
+					{
+						"name": "_lastname",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"name": "_firstname",
+						"type": "string"
+					},
+					{
+						"name": "_lastname",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"myWorkspace/myStructs.sol": "myStructs"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"myWorkspace/myStructs.sol": {
+			"keccak256": "0xacbd7fffba67356a63cf6f097bafc4a3f9be26eeb264460b3b4ce67137a8d4c0",
+			"urls": [
+				"bzzr://c5f4675288661a2a17e98b8c7d533d1398dceac4241cae8fa8c880a78446803d"
+			]
+		}
+	},
+	"version": 1
+}
