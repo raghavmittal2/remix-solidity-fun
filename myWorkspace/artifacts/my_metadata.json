@@ -63,6 +63,12 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -74,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"myWorkspace/myStructs.sol": "myStructs"
+			"myWorkspace/working with Owner Modifier.sol": "my"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -85,10 +91,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"myWorkspace/myStructs.sol": {
-			"keccak256": "0x839b4d19fdbdac765dc9dbeafc22864cf0f515d9be323532012f92243b731026",
+		"myWorkspace/working with Owner Modifier.sol": {
+			"keccak256": "0xce4709fbe4e293e7d1f48cbb8d19301f071e411a92df30b2f7639baea4676a0d",
 			"urls": [
-				"bzzr://1df625b3d51edbd78d66c356692664df0695bef8b8b7bfd5b2b15b4bf22bf17d"
+				"bzzr://7bd451bf29d2b8418795f58ebdcf80ef5f09695a23cab8c1409241b28973e7bc"
 			]
 		}
 	},

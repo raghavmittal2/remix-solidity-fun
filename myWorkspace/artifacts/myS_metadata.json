@@ -63,6 +63,12 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -74,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"myWorkspace/myStructs.sol": "myStructs"
+			"myWorkspace/Working with time as a modifier in solidity.sol": "myS"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -85,10 +91,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"myWorkspace/myStructs.sol": {
-			"keccak256": "0x839b4d19fdbdac765dc9dbeafc22864cf0f515d9be323532012f92243b731026",
+		"myWorkspace/Working with time as a modifier in solidity.sol": {
+			"keccak256": "0xa566a14c7cc3fd6b2feced5e56a6f382eb1c7b5ebe384fdc9e3fa6c014343128",
 			"urls": [
-				"bzzr://1df625b3d51edbd78d66c356692664df0695bef8b8b7bfd5b2b15b4bf22bf17d"
+				"bzzr://77c5226148452429e3bad5fcc6bb4cdcfe7b0a0de1f2e73f72330e5fed42e784"
 			]
 		}
 	},
